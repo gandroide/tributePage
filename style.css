@@ -44,4 +44,11 @@ body {
 
 a {
     text-align: right;
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+a:hover {
+    font-weight: bold;
 }
