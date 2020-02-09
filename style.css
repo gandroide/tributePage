@@ -1,9 +1,47 @@
-#image {
-    max-width: 100%;
-    display: block;
-    height: auto;
+#img-div {
+    display: flex;
+    flex-direction: column;
+    background-color: #989898;
 }
+
+#image {
+    border: 5px solid black;
+    max-width: 70%;
+    height: auto;
+    /*Aun no le he puesto un borde hasta esta secion !!!*/
+    /*asignando esta propiedad convertimos la imagen en un flexbox. "O aun debo meterla en un contenedor????"*/
+    align-self: center;
+}
+#img-caption {
+    align-self: center;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-weight: bold;
+
+}
+
 #tribute-info {
     width: 80%;
     text-align: justify;
+    align-self: center;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    
+}
+body {
+    background-color: #CED0CE;
+    color: #171717;
+}
+
+a {
+    text-align: right;
 }
